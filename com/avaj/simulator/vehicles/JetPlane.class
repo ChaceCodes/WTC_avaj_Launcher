@@ -1,6 +1,6 @@
-package simulator.vehicles;
+package com.avaj.simulator.vehicles;
 
-import simulator.coordinates;
+import com.avaj.simulator.coordinates;
 
 public class JetPlane extends Aircraft{
     private WeatherTower weatherTower;

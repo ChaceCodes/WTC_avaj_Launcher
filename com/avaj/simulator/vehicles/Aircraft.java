@@ -1,6 +1,6 @@
-package simulator.vehicles;
+package com.avaj.simulator.vehicles;
 
-import simulator.Coordinates;
+import com.avaj.simulator.Coordinates;
 
 public class Aircraft {
 

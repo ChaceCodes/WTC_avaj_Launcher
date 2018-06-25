@@ -1,4 +1,4 @@
-package simulator.vehicles;
+package com.avaj.simulator.vehicles;
 
 public interface Flyable{
     

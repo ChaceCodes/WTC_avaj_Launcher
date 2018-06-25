@@ -1,6 +1,6 @@
-package simulator;
+package com.avaj.simulator;
 
-import simulator.Coordinates;
+import com.avaj.simulator.Coordinates;
 
 public class WeatherTower{
 

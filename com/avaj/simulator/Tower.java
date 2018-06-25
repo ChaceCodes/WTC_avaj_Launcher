@@ -1,6 +1,6 @@
-package simulator;
+package com.avaj.simulator;
 
-import simulator.vehicles.Flyable;
+import com.avaj.simulator.vehicles.Flyable;
 
 public class Tower {
 
