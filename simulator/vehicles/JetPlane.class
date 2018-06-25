@@ -12,5 +12,6 @@ public class JetPlane extends Aircraft{
     }
 
     public void registerTower(WeatherTower weatherTower){
+        
     }
 }
