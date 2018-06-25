@@ -1,5 +1,7 @@
 package simulator.vehicles;
 
+import simulator.Coordinates;
+
 public class Baloon extends Aircraft{
     private WeatherTower weatherTower;
 
