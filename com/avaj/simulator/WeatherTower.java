@@ -1,15 +1,18 @@
 package com.avaj.simulator;
 
-import com.avaj.simulator.Coordinates;
+import com.avaj.weather.Coordinates;
+import com.avaj.weather.WeatherProvider;
 
-public class WeatherTower{
+public class WeatherTower extends Tower {
 
-    public String getWeather(Coordinates coordinates){
-
+    public String getWeather(Coordinates coordinates)
+    {
+        return WeatherProvider.getProvider().getCurrentWeather(coordinates);
     }
 
-    void changeWeather(){
-        
+    void changeWeather()
+    {
+        this.conditionChanged();
     }
 
 }

@@ -1,6 +1,7 @@
+
 package com.avaj.simulator.vehicles;
 
-import com.avaj.simulator.Coordinates;
+import com.avaj.weather.Coordinates;
 
 public class Aircraft {
 
